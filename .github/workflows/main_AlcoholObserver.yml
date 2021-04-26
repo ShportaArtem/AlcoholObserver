@@ -49,5 +49,5 @@ jobs:
       with:
         app-name: 'AlcoholObserver'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_1f70a58952044d09ae0de442677d8c65 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_2d6e13bcbb40465c95c4f2b100954537 }}
         package: '*.war'
