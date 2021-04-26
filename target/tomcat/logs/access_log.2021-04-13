@@ -1,0 +1,12 @@
+0:0:0:0:0:0:0:1 - - [13/Apr/2021:18:21:18 +0300] "GET /AlcoholObserver HTTP/1.1" 302 - http-bio-8086-exec-1 0
+0:0:0:0:0:0:0:1 - - [13/Apr/2021:18:21:18 +0300] "GET /AlcoholObserver/ HTTP/1.1" 200 3462 http-bio-8086-exec-2 145
+0:0:0:0:0:0:0:1 - - [13/Apr/2021:18:21:27 +0300] "POST /AlcoholObserver/Controller HTTP/1.1" 302 - http-bio-8086-exec-3 199
+0:0:0:0:0:0:0:1 - - [13/Apr/2021:18:21:27 +0300] "GET /AlcoholObserver/Controller?command=getMain HTTP/1.1" 200 2489 http-bio-8086-exec-4 41
+0:0:0:0:0:0:0:1 - - [13/Apr/2021:18:21:27 +0300] "GET /css/bootstrap.min.css HTTP/1.1" 404 - http-bio-8086-exec-5 0
+0:0:0:0:0:0:0:1 - - [13/Apr/2021:18:21:29 +0300] "GET /AlcoholObserver/Controller?command=getCompanies HTTP/1.1" 200 5310 http-bio-8086-exec-6 26
+0:0:0:0:0:0:0:1 - - [13/Apr/2021:18:21:29 +0300] "GET /css/bootstrap.min.css HTTP/1.1" 404 - http-bio-8086-exec-7 0
+0:0:0:0:0:0:0:1 - - [13/Apr/2021:18:21:30 +0300] "GET /AlcoholObserver/Controller?command=selectCurrentCompany&companyId=1 HTTP/1.1" 302 - http-bio-8086-exec-8 6
+0:0:0:0:0:0:0:1 - - [13/Apr/2021:18:21:30 +0300] "GET /AlcoholObserver/Controller?command=getCompanies HTTP/1.1" 200 5310 http-bio-8086-exec-9 11
+0:0:0:0:0:0:0:1 - - [13/Apr/2021:18:21:30 +0300] "GET /css/bootstrap.min.css HTTP/1.1" 404 - http-bio-8086-exec-10 0
+0:0:0:0:0:0:0:1 - - [13/Apr/2021:18:21:31 +0300] "GET /AlcoholObserver/Controller?command=getEmployees HTTP/1.1" 200 5995 http-bio-8086-exec-10 17
+0:0:0:0:0:0:0:1 - - [13/Apr/2021:18:21:31 +0300] "GET /css/bootstrap.min.css HTTP/1.1" 404 - http-bio-8086-exec-10 0

@@ -1,0 +1,62 @@
+
+<header>
+      
+      <div class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+        <div class="container d-flex justify-content-between">
+          <a  class="navbar-brand d-flex align-items-center">
+            <strong>AlcoholObserver</strong>
+          </a>
+			
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+ 
+
+   <c:choose>
+      <c:when test="${sessionScope.userRole == '2' }">
+        <li class="nav-item">
+            <a class="nav-link" href="/AlcoholObserver/Controller?command=getCompanies"><fmt:message key="company.companies"/></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/AlcoholObserver/Controller?command=getEmployees"><fmt:message key="header.employees"/></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/AlcoholObserver/Controller?command=getPunishment"><fmt:message key="header.punishment"/></a>
+        </li>
+      </c:when>
+  </c:choose>
+  <c:choose>
+        <c:when test="${sessionScope.userRole == '1' }">
+          <li class="nav-item">
+              <a class="nav-link" href="/AlcoholObserver/Controller?command=getALlCompanies"><fmt:message key="company.companies"/></a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/AlcoholObserver/Controller?command=getUsers"><fmt:message key="header.users"/></a>
+          </li>
+        </c:when>
+    </c:choose>
+    <c:choose>
+      <c:when test="${sessionScope.userRole == '3' }">
+        <li class="nav-item">
+          <a class="nav-link" href="/AlcoholObserver/Controller?command=getMyProfile"><fmt:message key="header.myProfile"/></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/AlcoholObserver/Controller?command=getMyVerifications"><fmt:message key="header.myVerifications"/></a>
+        </li>
+       </c:when>
+    </c:choose>
+
+    </ul>
+	
+	<div>
+	<li>
+	    <a href="/AlcoholObserver/settings.jsp" class="btn btn-outline-warning my-2 my-sm-0" type="submit"><fmt:message key="header.settings" /></a>
+	    <a href="/AlcoholObserver/Controller?command=logout" class="btn btn-outline-warning my-2 my-sm-0" type="submit"><fmt:message key="header.log_out" /></a>
+	</li>
+	
+	</div>
+	
+  </div>
+        </div>
+      </div>
+    </header> 

@@ -1,0 +1,38 @@
+2021-04-26 00:07 [ INFO]             NoCacheFilter:    25 - No-cache filter starts working
+2021-04-26 00:07 [ INFO]             NoCacheFilter:    29 - No-cache filter finished work
+2021-04-26 00:07 [DEBUG]       CommandAccessFilter:    44 - Filter starts
+2021-04-26 00:07 [DEBUG]       CommandAccessFilter:    46 - Filter finished
+2021-04-26 00:07 [DEBUG]                Controller:    54 - Controller starts
+2021-04-26 00:07 [TRACE]                Controller:    57 - Request parameter: command --> openAddVerificationCommand
+2021-04-26 00:07 [TRACE]                Controller:    60 - Obtained command --> web.command.http.get.GetAddVerificationCommand@288c762e
+2021-04-26 00:07 [DEBUG] GetAddVerificationCommand:    30 - Command starts
+2021-04-26 00:07 [DEBUG] GetAddVerificationCommand:    34 - Command finished
+2021-04-26 00:07 [TRACE]                Controller:    70 - Forward address --> /view/jsp/addVerification.jsp
+2021-04-26 00:07 [DEBUG]                Controller:    71 - Controller finished, now go to forward address --> /view/jsp/addVerification.jsp
+2021-04-26 00:07 [ INFO]             NoCacheFilter:    25 - No-cache filter starts working
+2021-04-26 00:07 [ INFO]             NoCacheFilter:    29 - No-cache filter finished work
+2021-04-26 00:07 [ INFO]             NoCacheFilter:    25 - No-cache filter starts working
+2021-04-26 00:07 [ INFO]             NoCacheFilter:    29 - No-cache filter finished work
+2021-04-26 00:07 [DEBUG]       CommandAccessFilter:    44 - Filter starts
+2021-04-26 00:07 [DEBUG]       CommandAccessFilter:    46 - Filter finished
+2021-04-26 00:07 [DEBUG]                Controller:    54 - Controller starts
+2021-04-26 00:07 [TRACE]                Controller:    57 - Request parameter: command --> addVerification
+2021-04-26 00:07 [TRACE]                Controller:    60 - Obtained command --> web.command.http.post.AddVerificationCommand@5b5b687
+2021-04-26 00:07 [DEBUG]    AddVerificationCommand:    32 - Command starts
+2021-04-26 00:07 [DEBUG]    AddVerificationCommand:    41 - Commands finished
+2021-04-26 00:07 [TRACE]                Controller:    70 - Forward address --> /AlcoholObserver/Controller?command=getMain
+2021-04-26 00:07 [DEBUG]                Controller:    71 - Controller finished, now go to forward address --> /AlcoholObserver/Controller?command=getMain
+2021-04-26 00:07 [ INFO]             NoCacheFilter:    25 - No-cache filter starts working
+2021-04-26 00:07 [ INFO]             NoCacheFilter:    29 - No-cache filter finished work
+2021-04-26 00:07 [DEBUG]       CommandAccessFilter:    44 - Filter starts
+2021-04-26 00:07 [DEBUG]       CommandAccessFilter:    46 - Filter finished
+2021-04-26 00:07 [DEBUG]                Controller:    54 - Controller starts
+2021-04-26 00:07 [TRACE]                Controller:    57 - Request parameter: command --> getMain
+2021-04-26 00:07 [TRACE]                Controller:    60 - Obtained command --> web.command.http.get.GetMainCommand@7e97e8e1
+2021-04-26 00:07 [DEBUG]            GetMainCommand:    30 - Command starts
+2021-04-26 00:07 [TRACE]            GetMainCommand:    36 - Set the session attribute: methodMain --> 1
+2021-04-26 00:07 [DEBUG]            GetMainCommand:    37 - Command finished
+2021-04-26 00:07 [TRACE]                Controller:    70 - Forward address --> /view/jsp/main.jsp
+2021-04-26 00:07 [DEBUG]                Controller:    71 - Controller finished, now go to forward address --> /view/jsp/main.jsp
+2021-04-26 00:07 [ INFO]             NoCacheFilter:    25 - No-cache filter starts working
+2021-04-26 00:07 [ INFO]             NoCacheFilter:    29 - No-cache filter finished work

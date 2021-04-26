@@ -1,0 +1,11 @@
+<header>
+      <div class="navbar navbar-dark bg-dark shadow-sm">
+        <div class="container d-flex justify-content-between">
+          <a href="#" class="navbar-brand d-flex align-items-center">
+            <strong>AlcoholObserver</strong>
+          </a>
+          <a class="btn btn-outline-warning my-2 my-sm-0" type="submit" href="login.jsp"><fmt:message key="login.signIn"/></a>
+          
+        </div>
+      </div>
+    </header>

@@ -1,0 +1,10 @@
+0:0:0:0:0:0:0:1 - - [11/Apr/2021:17:41:46 +0300] "GET /AlcoholObserver HTTP/1.1" 302 - http-bio-8086-exec-1 0
+0:0:0:0:0:0:0:1 - - [11/Apr/2021:17:41:46 +0300] "GET /AlcoholObserver/ HTTP/1.1" 200 3462 http-bio-8086-exec-3 64
+0:0:0:0:0:0:0:1 - - [11/Apr/2021:17:41:54 +0300] "POST /AlcoholObserver/Controller HTTP/1.1" 404 706 http-bio-8086-exec-4 236
+0:0:0:0:0:0:0:1 - - [11/Apr/2021:17:41:54 +0300] "GET /css/bootstrap.min.css HTTP/1.1" 404 - http-bio-8086-exec-5 0
+0:0:0:0:0:0:0:1 - - [11/Apr/2021:17:41:55 +0300] "GET /AlcoholObserver/ HTTP/1.1" 200 3462 http-bio-8086-exec-6 4
+0:0:0:0:0:0:0:1 - - [11/Apr/2021:17:41:59 +0300] "POST /AlcoholObserver/Controller HTTP/1.1" 302 - http-bio-8086-exec-7 7
+0:0:0:0:0:0:0:1 - - [11/Apr/2021:17:41:59 +0300] "GET /AlcoholObserver/Controller?command=getMain HTTP/1.1" 200 2194 http-bio-8086-exec-8 15
+0:0:0:0:0:0:0:1 - - [11/Apr/2021:17:41:59 +0300] "GET /css/bootstrap.min.css HTTP/1.1" 404 - http-bio-8086-exec-9 0
+0:0:0:0:0:0:0:1 - - [11/Apr/2021:17:42:03 +0300] "GET /AlcoholObserver/Controller?command=openAddVerificationCommand HTTP/1.1" 200 3052 http-bio-8086-exec-10 725
+0:0:0:0:0:0:0:1 - - [11/Apr/2021:17:42:03 +0300] "GET /css/bootstrap.min.css HTTP/1.1" 404 - http-bio-8086-exec-10 0

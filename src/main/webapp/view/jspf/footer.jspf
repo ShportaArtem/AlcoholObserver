@@ -1,0 +1,8 @@
+
+            <footer class="footer fixed-bottom text-align-center text-light bg-dark">
+      <div class="container">
+        	<div class="footer-copyright">
+				<div class="container-fluid text-center">2021 Copyright:  AlcoholObserver </div>
+            </div>
+      </div>
+    </footer>
